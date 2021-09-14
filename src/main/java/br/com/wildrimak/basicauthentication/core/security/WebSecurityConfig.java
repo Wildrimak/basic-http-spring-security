@@ -13,6 +13,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	http.httpBasic()
 		.and()
 		.authorizeRequests()
+			.antMatchers("/produtos/**").permitAll()
 			.anyRequest().authenticated();
 
     }
