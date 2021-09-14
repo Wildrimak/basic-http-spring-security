@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.wildrimak.basicauthentication.api.requests.ProdutoResponse;
+import br.com.wildrimak.basicauthentication.api.responses.ProdutoResponse;
 
 @RestController
 @RequestMapping("/produtos")

@@ -1,4 +1,4 @@
-package br.com.wildrimak.basicauthentication.api.requests;
+package br.com.wildrimak.basicauthentication.api.responses;
 
 import java.math.BigDecimal;
 
